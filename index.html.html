@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buffalo Creek Partners — Campgrounds & RV Parks (Midwest + Southeast)</title>
+  <meta name="description" content="Buffalo Creek Partners acquires, develops, and operates campgrounds and RV parks across the United States with a focus on the Midwest and Southeast. Modern amenities meet rustic hospitality." />
+  <meta name="keywords" content="campground operator Midwest, RV park operator Southeast, campground acquisition, RV resort operations, glamping owner-operator, campground development, outdoor hospitality Midwest, outdoor hospitality Southeast" />
+  <link rel="canonical" href="https://buffalocreekpartners.com/" />
+  <meta name="theme-color" content="#3A2B21" />
+  <!-- Favicon: WebP preferred, JPEG fallback -->
+  <link rel="icon" type="image/webp" href="logo_large.webp" />
+  <link rel="icon" type="image/jpeg" href="logo_large.jpg" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{ --ink:#2F261D; --brand:#3A2B21; --accent:#B08B57; --cream:#F4EFE6; --card:#FFF9F0; --muted:#6B5B4A; --radius:18px; --shadow:0 14px 30px rgba(0,0,0,.12); }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0; background:var(--cream); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{width:min(1120px,92vw);margin:0 auto}
+
+    header{position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);background:rgba(255,255,255,.7);border-bottom:1px solid rgba(0,0,0,.08)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.3px}
+    .logo{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:#fff;border:1px solid rgba(0,0,0,.12);box-shadow:var(--shadow);overflow:hidden}
+    .menu{display:flex;gap:18px;align-items:center;font-weight:600;flex-wrap:wrap}
+    .menu a{padding:8px 12px;border-radius:999px}
+    .menu a:hover{background:rgba(0,0,0,.06);text-decoration:none}
+    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 16px;border-radius:14px;background:var(--brand);color:#fff;font-weight:800;border:none;box-shadow:var(--shadow)}
+    .btn:hover{filter:brightness(1.05)}
+
+    .hero{padding:64px 0 24px}
+    .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
+    @media (max-width:900px){.hero-grid{grid-template-columns:1fr}}
+    .eyebrow{font:600 13px/1 League Spartan,system-ui; text-transform:uppercase; letter-spacing:.18em; color:var(--muted); margin-bottom:10px}
+    h1{font-family:League Spartan,Inter; font-size:clamp(34px,5.2vw,64px); line-height:1.02; margin:0 0 10px; color:var(--brand)}
+    .lead{font-size:clamp(16px,2.2vw,20px); color:#5A4A3B; margin:0 0 22px}
+    .badge{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid rgba(0,0,0,.1);padding:8px 12px;border-radius:999px;font-weight:700}
+
+    .tile{background:var(--card);border:1px solid rgba(0,0,0,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .tile-in{padding:18px}
+
+    section{padding:56px 0}
+    h2{font-family:League Spartan,Inter; font-size:clamp(26px,3.4vw,38px); margin:0 0 18px; color:var(--brand)}
+    h3{font:700 20px/1.2 Inter; margin:6px 0 8px}
+
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    @media (max-width:900px){.grid-3{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid-3{grid-template-columns:1fr}}
+
+    table{width:100%;border-collapse:collapse;font-size:16px}
+    th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(0,0,0,.08)}
+    th{background:rgba(0,0,0,.04);font-weight:700}
+
+    .contact form{display:grid;gap:12px}
+    input,textarea{width:100%;background:#fff;border:1px solid rgba(0,0,0,.12);color:var(--ink);padding:12px 14px;border-radius:12px;font:inherit}
+    textarea{min-height:120px;resize:vertical}
+
+    footer{padding:32px 0 56px;color:var(--muted);border-top:1px solid rgba(0,0,0,.08)}
+  </style>
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Buffalo Creek Partners — Campgrounds & RV Parks (Midwest + Southeast)" />
+  <meta property="og:description" content="We acquire, develop, and operate campgrounds and RV parks across the United States with emphasis on the Midwest and Southeast. Modern amenities meet rustic hospitality." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://buffalocreekpartners.com/" />
+  <!-- Keep JPEG first for widest social compatibility; include WebP as secondary -->
+  <meta property="og:image" content="bright_park.jpg" />
+  <meta property="og:image" content="bright_park.webp" />
+  <meta property="og:image" content="logo_large.jpg" />
+  <meta property="og:image" content="logo_large.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Buffalo Creek Partners",
+    "url":"https://buffalocreekpartners.com/",
+    "logo":"logo_large.webp",
+    "image":["logo_large.webp","logo_large.jpg"],
+    "email":"hello@buffalocreekpartners.com",
+    "description":"Buffalo Creek Partners acquires, develops, and operates campgrounds and RV parks across the United States with a focus on the Midwest and Southeast.",
+    "areaServed":["United States","Midwest","Southeast","Indiana","Illinois","Ohio","Michigan","Kentucky","Tennessee","Georgia","North Carolina","South Carolina","Alabama","Florida"],
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">
+          <picture>
+            <source srcset="logo_large.webp" type="image/webp">
+            <img src="logo_large.jpg" alt="Buffalo Creek Partners logo — rustic‑modern campground & RV park operator">
+          </picture>
+        </div>
+        <span>Buffalo Creek Partners</span>
+      </div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#what-we-do">What We Do</a>
+        <a href="#regions">Regions</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Own • Operate • Elevate</div>
+          <h1>Campgrounds & RV Parks — Midwest + Southeast</h1>
+          <p class="lead">We acquire, develop, and operate distinctive outdoor stays where <em>modern amenities</em> meet <em>rustic comfort</em>. Our parks blend clean lines, warm materials, and nature‑forward amenities to deliver high guest satisfaction and strong, repeatable returns.</p>
+          <div class="badge">Actively buying & partnering nationwide</div>
+          <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn" href="#contact">Sell or partner with us</a>
+            <a href="#properties">See target properties →</a>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="tile-in">
+            <picture>
+              <source srcset="bright_park.webp" type="image/webp">
+              <img src="bright_park.jpg" alt="Well‑maintained RV park with paved pads, full hookups, picnic tables, and landscaped grounds under a blue sky" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px;display:block">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what-we-do">
+      <div class="container">
+        <h2>What we do</h2>
+        <div class="grid-3">
+          <div class="tile"><div class="tile-in">
+            <h3>Acquire & Develop</h3>
+            <p>Targeted acquisitions and ground‑up development of campgrounds, RV parks, and glamping concepts. Site planning, amenities ROI, utility upgrades, and ADA‑conscious designs.</p>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Operate & Elevate</h3>
+            <p>Owner‑operator model with disciplined SOPs, modern‑amenity‑forward guest experience, and service standards that drive repeat stays and reviews.</p>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Revenue & Marketing</h3>
+            <p>Dynamic pricing, demand forecasting, direct‑booking growth, and local SEO. We pair modern design with data‑driven revenue management.</p>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Safety & Risk</h3>
+            <p>Practical risk posture—storm readiness, pool/amenity compliance, and clear guest communications. Built by a leadership team with deep safety and cybersecurity experience.</p>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Community & Events</h3>
+            <p>Programming that fits each region—family‑friendly weekends, trail access, waterside activities, and pet‑friendly policies that actually work.</p>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Partnerships</h3>
+            <p>We partner with landowners and sellers seeking smooth transitions, earn‑outs, or JV structures. Have a park to sell in the Midwest or Southeast? Let’s talk.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="regions">
+      <div class="container">
+        <h2>Where we focus</h2>
+        <p class="lead">United States nationwide activity with emphasis on the <strong>Midwest</strong> and <strong>Southeast</strong>.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <span class="badge" aria-label="Target state: Indiana">Indiana</span>
+          <span class="badge" aria-label="Target state: Illinois">Illinois</span>
+          <span class="badge" aria-label="Target state: Ohio">Ohio</span>
+          <span class="badge" aria-label="Target state: Michigan">Michigan</span>
+          <span class="badge" aria-label="Target state: Kentucky">Kentucky</span>
+          <span class="badge" aria-label="Target state: Tennessee">Tennessee</span>
+          <span class="badge" aria-label="Target state: Georgia">Georgia</span>
+          <span class="badge" aria-label="Target state: North Carolina">North Carolina</span>
+          <span class="badge" aria-label="Target state: South Carolina">South Carolina</span>
+          <span class="badge" aria-label="Target state: Alabama">Alabama</span>
+          <span class="badge" aria-label="Target state: Florida">Florida</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="properties">
+      <div class="container">
+        <h2>Types of Properties We’re Interested In</h2>
+        <div class="tile"><div class="tile-in">
+          <table>
+            <thead>
+              <tr><th>Property Type</th><th>Why We Pursue It</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>RV Parks with Full Hookups</strong></td><td>Solid infrastructure, flexible short‑ or long‑term bookings, scalable with site expansion.</td></tr>
+              <tr><td><strong>Luxury or Boutique Campgrounds / Glamping Resorts</strong></td><td>High guest experience potential, strong margins, ideal for upscale or amenity‑rich design.</td></tr>
+              <tr><td><strong>Tent‑Only / Primitive Camping</strong></td><td>Low overhead, appeals to eco/nature seekers, fits smaller parcels near recreation sites.</td></tr>
+              <tr><td><strong>Seasonal / Snowbird Parks</strong></td><td>Predictable winter income in warm climates, stable long‑term bookings.</td></tr>
+              <tr><td><strong>Themed or Membership Campgrounds</strong></td><td>Strong brand loyalty, recurring revenue, potential for premium offerings.</td></tr>
+              <tr><td><strong>Value‑Add Turnaround Assets</strong></td><td>Undervalued parks needing improvements—huge ROI potential with selective capital deployment.</td></tr>
+            </tbody>
+          </table>
+        </div></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Buffalo Creek Partners</h2>
+        <div class="tile"><div class="tile-in">
+          <p>We’re an owner‑operator blending modern amenities with rustic hospitality. Our parks are simple, warm, and functional—clean lines, natural materials, and the kind of details that make campfires last longer.</p>
+          <p class="lead" style="color:var(--muted)">Headquartered in Indiana • Operating across the U.S. • Focus: Midwest & Southeast</p>
+        </div></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Sell, partner, or say hello</h2>
+        <div class="grid-3">
+          <div class="tile" style="grid-column:span 2"><div class="tile-in">
+            <form name="contact" onsubmit="return submitForm(event)">
+              <label class="lead" style="display:block;margin-bottom:8px">Tell us about your property</label>
+              <input name="name" required placeholder="Your name" aria-label="Your name" />
+              <input type="email" name="email" required placeholder="Email" aria-label="Your email" />
+              <input name="property" placeholder="Park name & location (e.g., Creek Bend RV • KY)" aria-label="Property name and location" />
+              <textarea name="message" required placeholder="I’m exploring a sale/partnership for…" aria-label="Your message"></textarea>
+              <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                <button class="btn" type="submit">Send inquiry</button>
+                <a href="mailto:hello@buffalocreekpartners.com?subject=Property%20Inquiry" aria-label="Email Buffalo Creek Partners">Or email us directly →</a>
+              </div>
+              <p id="formStatus" class="lead" style="font-size:14px;color:var(--muted)" role="status" aria-live="polite"></p>
+            </form>
+          </div></div>
+          <div class="tile"><div class="tile-in">
+            <h3>Quick facts</h3>
+            <ul>
+              <li>Owner‑operator of campgrounds & RV parks</li>
+              <li>Modern amenities + rustic design ethos</li>
+              <li>Focus regions: Midwest & Southeast</li>
+              <li>Flexible deal structures & partnerships</li>
+            </ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+      <div>© <span id="year"></span> Buffalo Creek Partners • <a href="https://buffalocreekpartners.com">buffalocreekpartners.com</a></div>
+      <div class="lead" style="font-size:14px">Contact: <a href="mailto:hello@buffalocreekpartners.com">hello@buffalocreekpartners.com</a></div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('load',()=>{document.getElementById('year').textContent=new Date().getFullYear();});
+    function submitForm(e){
+      e.preventDefault();
+      const fd=new FormData(e.target);
+      const body=encodeURIComponent(`Name: ${fd.get('name')}\nEmail: ${fd.get('email')}\nProperty: ${fd.get('property')||''}\n\n${fd.get('message')}`);
+      const url=`mailto:hello@buffalocreekpartners.com?subject=Inquiry%20from%20${encodeURIComponent(fd.get('name')||'Website')}&body=${body}`;
+      document.getElementById('formStatus').textContent='Opening your email client…';
+      window.location.href=url; return false;
+    }
+  </script>
+</body>
+</html>
